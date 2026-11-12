@@ -1,2 +1,4 @@
 # welcome-to-cdocs
-Welcome to my little world of docs!
+This is the docs repository strcitly for Casey Brown. You can leave a comment if you'd like, but no contributors are allowed :)
+
+© 2026 Casey Brown. All rights reserved.
