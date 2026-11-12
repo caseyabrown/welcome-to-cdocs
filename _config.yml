@@ -1,0 +1,15 @@
+
+# Website information
+title: "Casey Brown | Technical Writing Portfolio"
+description: "Technical writing, documentation strategy, and information architecture."
+
+# Website URL
+url: "https://caseyabrown.github.io"
+baseurl: ""
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
