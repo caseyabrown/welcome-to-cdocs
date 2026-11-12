@@ -1,0 +1,54 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+/* Your custom CSS starts here */
+
+header {
+  position: static;
+  float: none;
+  width: auto;
+  padding: 25px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Documentation navigation */
+.site-nav {
+  margin: 15px 0 25px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-nav h3 {
+  display: none;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  margin: 0;
+}
+
+.site-nav ul ul {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #267CB9;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
