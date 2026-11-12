@@ -1,3 +1,9 @@
+---
+layout: default
+title: Documentation Plan
+permalink: /docs/documentation-plan/
+---
+
  # Documentation plan - [TeamName]
 
 _**Context**: The following document is an internal Documentation Plan template that can be used for the Incident Response and Observability team, describing how I (the technical writer), plan to completely revamp and launch their entire documentation set._
