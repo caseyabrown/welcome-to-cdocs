@@ -39,3 +39,69 @@
 .site-nav a:hover {
   text-decoration: underline;
 }
+
+/* Expand the page to use the full content width */
+.wrapper {
+  width: auto;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+header {
+  float: none;
+  width: auto;
+  padding: 25px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+section {
+  float: none;
+  width: auto;
+  padding: 30px 0;
+}
+
+footer {
+  float: none;
+  width: auto;
+}
+
+/* Display navigation horizontally */
+.site-nav {
+  margin: 15px 0 25px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-nav h3 {
+  display: none;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  margin: 0;
+}
+
+.site-nav ul ul {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #267CB9;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
