@@ -6,11 +6,13 @@
 
 /* Header */
 header {
-  position: static;
-  float: none;
-  width: auto;
+  position: static !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
   padding: 25px 0;
   border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
 }
 
 /* Expand the page to use the full content width */
