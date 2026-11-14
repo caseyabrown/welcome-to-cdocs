@@ -1,6 +1,9 @@
+- title: Home
+  url: /
 
-- title: Documentation
+- title: Writing Samples
   url: /docs/
   children:
     - title: Documentation Plan
       url: /docs/documentation-plan/
+    
