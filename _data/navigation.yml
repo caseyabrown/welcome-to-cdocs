@@ -1,9 +1,23 @@
-- title: Home
-  url: /
+# Top navigation. Each entry is a drop-down menu; its children are the menu items.
+# Internal URLs are relative to the site root (baseurl is added automatically).
+# Set `external: true` to open a link in a new tab.
 
-- title: Writing Samples
-  url: /docs/
+- title: About me
   children:
-    - title: Documentation Plan
-      url: /docs/documentation-plan/
-    
+    - title: About me
+      url: /about/
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/caseyangelinabrown/
+      external: true
+
+- title: Projects
+  children:
+    - title: Documentation plan
+      url: /projects/documentation-plan/
+    - title: Using AI to reimagine your IA
+      url: /projects/using-ai-to-reimagine-your-ia/
+
+- title: Writing samples
+  children:
+    - title: Add a Markdown file to a GitHub repository
+      url: /writing-samples/add-a-markdown-file-to-a-github-repository/

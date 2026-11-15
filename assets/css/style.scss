@@ -7,10 +7,55 @@
 /* Custom portfolio styles */
 
 /* Give writing samples a comfortable reading width */
-article {
+article,
+.markdown-body {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ---------- Spacing between titles, headings, and paragraphs ---------- */
+
+.markdown-body {
+  h1 {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    margin-top: 2.75rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p,
+  ul,
+  ol,
+  pre,
+  blockquote,
+  table {
+    margin-bottom: 1.25rem;
+  }
+
+  p,
+  li {
+    line-height: 1.7;
+  }
+
+  li + li {
+    margin-top: 0.4rem;
+  }
 }
 
 /* Improve paragraph readability */
@@ -21,4 +66,74 @@ article p {
 /* Style links */
 a {
   transition: color 0.2s ease;
+}
+
+/* ---------- Navigation drop-downs ---------- */
+
+.navbar-themed {
+  .navbar-nav .nav-item {
+    margin-left: 0.5rem;
+  }
+
+  /* The theme uses ::after for the hover underline, so replace Bootstrap's
+     caret with a chevron icon (in navbar.html) and keep the underline. */
+  .dropdown-toggle::after {
+    border: 0;
+    margin-left: 0;
+    vertical-align: initial;
+  }
+
+  .dropdown-toggle .fa-chevron-down {
+    margin-left: 0.25rem;
+    transition: transform 0.2s ease;
+  }
+
+  .show > .dropdown-toggle .fa-chevron-down {
+    transform: rotate(180deg);
+  }
+
+  .dropdown-menu {
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    margin-top: 0.25rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+    @include themed(background-color, #fff, #242526);
+    @include themed(border-color, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
+  }
+
+  .dropdown-item {
+    padding: 0.5rem 1.25rem;
+    @include themed(color, $text-black, $text-white);
+
+    &:hover,
+    &:focus {
+      @include themed(background-color, rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.08));
+      @include themed(color, $text-black, $text-white);
+    }
+
+    &.active,
+    &:active {
+      background-color: $primary;
+      color: #fff;
+    }
+
+    .fa-external-link-alt {
+      margin-left: 0.25rem;
+      opacity: 0.6;
+    }
+  }
+
+  /* Mobile: menus open inline under the hamburger instead of floating */
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-item {
+      margin-left: 0;
+    }
+
+    .dropdown-menu {
+      box-shadow: none;
+      border: 0;
+      background-color: transparent;
+      padding-left: 1rem;
+    }
+  }
 }

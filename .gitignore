@@ -12,3 +12,9 @@ desktop.ini
 .env
 .env.*
 !.env.example
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.bundle/
+vendor/
