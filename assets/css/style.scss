@@ -137,3 +137,47 @@ a {
     }
   }
 }
+
+/* ---------- Home page: Selected Projects with headshot ---------- */
+
+.selected-projects {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+
+  .selected-projects-text {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .selected-projects-photo {
+    flex: 0 0 auto;
+  }
+
+  .headshot {
+    display: block;
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 40%;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+  }
+
+  /* Stack the photo under the text on small screens */
+  @media (max-width: 767.98px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    .selected-projects-photo {
+      align-self: center;
+    }
+
+    .headshot {
+      width: 180px;
+    }
+  }
+}
