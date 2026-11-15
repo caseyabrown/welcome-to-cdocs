@@ -1,3 +1,9 @@
+---
+layout: page
+title: Add a Markdown file to a GitHub repository
+permalink: /writing-samples/add-a-markdown-file-to-a-github-repository/
+---
+
 # Add a Markdown file to a GitHub repository
 
 Markdown is a lightweight markup language that works well for [docs-as-code](https://docs.google.com/document/u/0/d/11_-3KGdzb1rm6viVDQnLqlYNArSOvAL9RYFoaQwlUhY/edit) workflows. You can use a GitHub repository to store your Markdown files (`.md`), then use git and Github for version control. This enables you to work simultaneously with other writers, while ensuring that you are not overwriting each other’s content. 

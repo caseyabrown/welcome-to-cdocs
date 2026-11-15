@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Documentation Plan
-permalink: /docs/documentation-plan/
+permalink: /projects/documentation-plan/
 ---
 
  # Documentation plan - [TeamName]
