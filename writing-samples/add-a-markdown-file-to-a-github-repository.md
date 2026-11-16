@@ -24,9 +24,9 @@ Before reading this article, you must have the following:
 
 ## On this page
 
-Step 1. Clone a GitHub repository
-Step 2. Create a branch to add your Markdown file
-Step 3. Create and merge your pull request in GitHub
+* [Step 1. Clone a GitHub repository](#step-1-clone-a-github-repository)
+* [Step 2. Create a branch to add your Markdown file](#step-2-create-a-branch-to-add-your-markdown-file)
+* [Step 3. Create and merge your pull request in GitHub](#step-3-create-and-merge-your-pull-request-in-github)
 
 ## Step 1. Clone a GitHub repository
 
@@ -60,7 +60,7 @@ Now that your GitHub repository is cloned, you can add your Markdown file to the
    cd Documents/REPOSITORY_NAME
    ```
 
-    **Note**: Replace <code>REPOSITORY_NAME<strong><em> </em></strong></code>with the name of the cloned folder in Step 1. For example: `cd Documents/microservices-repo`
+    **Note**: Replace `REPOSITORY_NAME` with the name of the cloned folder in Step 1. For example: `cd Documents/microservices-repo`
 
 3. Locate the main branch in the repository:
 
@@ -107,7 +107,7 @@ Now that your GitHub repository is cloned, you can add your Markdown file to the
    git push origin BRANCH_NAME
    ```
 
-    **Note**: Replace `BRANCH_NAME` with the same name associated with this change. For example: `git push origin cbrown/update-articlex`
+  **Note**: Replace `BRANCH_NAME` with the same name associated with this change. For example: `git push origin cbrown/update-articlex`
 
 Your changes are pushed to the remote branch and a GitHub link appears in your terminal.
 
