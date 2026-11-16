@@ -25,7 +25,7 @@ The following description and diagram show a simplified workflow of the docs-as-
 4. **Merge**: Combine approved changes into the main branch.
 5. **Publish**: Deploy your documentation to your website.
 
-![alt_text](images/dac-workflow.png "workflow")
+![Docs-as-code workflow: make changes, open a pull request, get feedback, merge, publish]({{ '/images/dac-workflow.png' | relative_url }})
 
 The process is iterative, meaning you can continue making improvements as your documentation evolves.
 
@@ -38,4 +38,4 @@ Docs as Code works particularly well when documentation is closely tied to softw
 * Make sure you understand [Branches](https://docs.github.com/en/pull-requests/reference/branches) in GitHub in order to adopt the docs-as-code workflow.
 * See [About Git](https://docs.github.com/en/get-started/using-git/about-git) to understand the version control system and how it works in GitHub.
 * Familiarize yourself with Markdown’s [Basic Syntax](https://www.markdownguide.org/basic-syntax/).
-* See [Add a Markdown file to a GitHub repository](/writing-samples/add-a-markdown-file-to-a-github-repository.md) to learn how to add your documentation.
+* See [Add a Markdown file to a GitHub repository]({{ '/writing-samples/add-a-markdown-file-to-a-github-repository/' | relative_url }}) to learn how to add your documentation.
