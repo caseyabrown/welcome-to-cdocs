@@ -1,10 +1,20 @@
 ---
 ---
 
+/* Load Poppins with real bold weights. The theme only loads weight 400,
+   so the browser fakes bold and it barely shows. Must stay at the top. */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap");
+
 /* Import the portfolYOU theme */
 @import "portfolYOU";
 
 /* Custom portfolio styles */
+
+/* Make bold text clearly heavier than body text */
+strong,
+b {
+  font-weight: 700;
+}
 
 /* Give writing samples a comfortable reading width */
 article,
