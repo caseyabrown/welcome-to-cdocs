@@ -19,5 +19,7 @@
 
 - title: Writing samples
   children:
+    - title: About Docs as Code
+      url: /writing-samples/about-docs-as-code/
     - title: Add a Markdown file to a GitHub repository
       url: /writing-samples/add-a-markdown-file-to-a-github-repository/

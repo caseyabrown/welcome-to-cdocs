@@ -4,9 +4,9 @@ title: Documentation Plan
 permalink: /projects/documentation-plan/
 ---
 
- # Documentation plan - [TeamName]
+# Documentation plan
 
-_**Context**: The following document is an internal Documentation Plan template that can be used for the Incident Response and Observability team, describing how I (the technical writer), plan to completely revamp and launch their entire documentation set._
+_**Context**: The following document is an internal Documentation Plan template that can be used for a team (such as the Incident Response and Observability team), describing how I (the technical writer), plan to completely revamp and launch their entire documentation set._
 
 ```
 Primary author(s):  Casey Brown
