@@ -103,11 +103,11 @@ Now that your GitHub repository is cloned, you can add your Markdown file to the
 
 10. Push the changes to the remote branch in GitHub:
 
-   ```
-   git push origin BRANCH_NAME
-   ```
+    ```
+    git push origin BRANCH_NAME
+    ```
 
-   **Note**: Replace `BRANCH_NAME` with the same name associated with this change. For example: `git push origin cbrown/update-articlex`
+    **Note**: Replace `BRANCH_NAME` with the same name associated with this change. For example: `git push origin cbrown/update-articlex`
 
 Your changes are pushed to the remote branch and a GitHub link appears in your terminal.
 
