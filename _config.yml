@@ -3,8 +3,8 @@ title: "Casey Brown | Technical Writing Portfolio"
 description: "Technical writing, documentation strategy, and information architecture."
 
 # Website URL
-url: "https://caseyabrown.github.io"
-baseurl: "/welcome-to-cdocs"
+url: "https://caseybrown.world"
+baseurl: ""
 
 # Theme
 remote_theme: yousinix/portfolYOU

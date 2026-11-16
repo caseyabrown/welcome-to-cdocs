@@ -3,7 +3,7 @@ This is the docs repository strictly for Casey Brown. You can leave a comment if
 
 ## About
 
-This repository holds the source for Casey Brown's technical writing portfolio, published at **https://caseyabrown.github.io/welcome-to-cdocs/**.
+This repository holds the source for Casey Brown's technical writing portfolio, published at **https://caseybrown.world**.
 
 The site is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). It uses the [portfolYOU](https://github.com/yousinix/portfolYOU) remote theme, with a custom navigation bar and styles layered on top.
 
@@ -59,7 +59,7 @@ Prerequisites: [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.
    bundle exec jekyll serve
    ```
 
-3. Open http://localhost:4000/welcome-to-cdocs/ in your browser. The site rebuilds automatically when you save a file, except for changes to `_config.yml`, which require restarting the server.
+3. Open http://localhost:4000/ in your browser. The site rebuilds automatically when you save a file, except for changes to `_config.yml`, which require restarting the server.
 
 ## Add a page
 
@@ -82,7 +82,7 @@ Prerequisites: [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.
          url: /writing-samples/my-new-sample/
    ```
 
-3. Link to images and other pages with the `relative_url` filter so the `/welcome-to-cdocs` base path is included:
+3. Link to images and other pages with the `relative_url` filter so links keep working if a base path is ever configured:
 
    ```md
    ![Description of the image]({{ '/images/my-image.png' | relative_url }})
