@@ -3,31 +3,18 @@ layout: page
 title: Home
 ---
 
-# Welcome to Cdocs World!
+# Welcome to Cdocs World
 
-Welcome to my little world of docs! As a technical writer, it can be difficult to share work samples because those belong to the company. You're lucky if you're name is published and attached to those guides, but that's not always the case! To circumvent this challenge, I've created my own writing samples.
+I'm Casey Brown, a Staff Technical Writer who enjoys making complex systems easier to understand through writing. I created this site so that I can share some of my writing samples. Most of the documentation I've created belongs to the companies that I've worked for, so I don't have the permissions to share those samples. Have a look around and feel free to get in contact with me if you have any questions!
 
-<div class="selected-projects" markdown="1">
-
-<div class="selected-projects-text" markdown="1">
-
-## Selected Projects
+## Selected projects
 
 Explore examples of my work, including:
 
 - Blog posts
-- How I would update an existing help center
-- How I would revamp a single article
-- Outlines for operational / roles and responsibility documents 
+- Writing samples
+- Outlines for operational and roles-and-responsibilities documents
 
-</div>
+## Get in touch
 
-<div class="selected-projects-photo">
-  <img class="headshot" src="{{ '/images/headshot.png' | relative_url }}" alt="Headshot of Casey Brown">
-</div>
-
-</div>
-
-## Get in Touch
-
-[LinkedIn](https://www.linkedin.com/in/caseyangelinabrown/)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/caseyangelinabrown/).

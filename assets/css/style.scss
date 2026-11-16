@@ -138,19 +138,19 @@ a {
   }
 }
 
-/* ---------- Home page: Selected Projects with headshot ---------- */
+/* ---------- About page: intro with headshot ---------- */
 
-.selected-projects {
+.profile-intro {
   display: flex;
   align-items: center;
   gap: 2.5rem;
 
-  .selected-projects-text {
+  .profile-intro-text {
     flex: 1 1 auto;
     min-width: 0;
   }
 
-  .selected-projects-photo {
+  .profile-intro-photo {
     flex: 0 0 auto;
   }
 
@@ -172,7 +172,7 @@ a {
     align-items: flex-start;
     gap: 1rem;
 
-    .selected-projects-photo {
+    .profile-intro-photo {
       align-self: center;
     }
 
