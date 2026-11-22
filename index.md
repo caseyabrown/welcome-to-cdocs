@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Casey Brown
 ---
 
 # Welcome to Casey's little internet world
