@@ -32,6 +32,7 @@ The site is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pag
 │   └── vale.yml              # Runs Vale on every push and pull request
 ├── CODEOWNERS                # Requires review from @caseyabrown on all changes
 ├── Gemfile / Gemfile.lock    # Ruby dependencies (pinned to the GitHub Pages versions)
+├── .ruby-version             # Ruby version the site needs locally (3.3)
 └── README.md
 ```
 
@@ -45,21 +46,57 @@ The following folders are generated locally and ignored by Git, so don't edit or
 
 ## Run the site locally
 
-Prerequisites: [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/).
+The site needs Ruby 3.3, the version in `.ruby-version`. The Ruby that comes with macOS (`/usr/bin/ruby`, version 2.6) is too old, and Ruby 4 doesn't work with the GitHub Pages gems.
 
-1. Install the dependencies:
+### One-time setup
+
+1. Install Ruby 3.3 with [Homebrew](https://brew.sh/):
+
+   ```sh
+   brew install ruby@3.3
+   ```
+
+2. Put Ruby 3.3 ahead of the system Ruby on your `PATH` by adding this line to the end of `~/.zshrc`:
+
+   ```sh
+   export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+   ```
+
+3. Open a new terminal and confirm the version:
+
+   ```sh
+   ruby -v
+   ```
+
+   The output starts with `ruby 3.3`.
+
+4. Install the dependencies:
 
    ```sh
    bundle install
    ```
 
-2. Start the local server:
+### Preview your changes
+
+1. Start the local server:
 
    ```sh
-   bundle exec jekyll serve
+   bundle exec jekyll serve --livereload
    ```
 
-3. Open http://localhost:4000/ in your browser. The site rebuilds automatically when you save a file, except for changes to `_config.yml`, which require restarting the server.
+2. Open http://localhost:4000/ in your browser.
+
+When you save a file, Jekyll rebuilds the site and the browser reloads on its own. Keep these exceptions in mind:
+
+- Changes to `_config.yml` need a restart. Press `Ctrl+C` and run the serve command again.
+- If a page still looks out of date, stop the server, run `bundle exec jekyll clean`, and start it again.
+
+### Troubleshooting
+
+| Error | Fix |
+| --- | --- |
+| `Could not find 'bundler' (4.0.23)` | The terminal is still using the macOS system Ruby. Open a new terminal, or check that the `PATH` line is in `~/.zshrc`. |
+| `Address already in use` | Another server is already running on port 4000. Stop it, or run `bundle exec jekyll serve --livereload --port 4001`. |
 
 ## Add a page
 
