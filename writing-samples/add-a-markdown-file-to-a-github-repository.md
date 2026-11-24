@@ -17,9 +17,9 @@ Before reading this article, you must have the following:
 * A [GitHub](https://github.com/) account
 * Access to the GitHub repository used to manage and publish your documentation
 * An SSH key added to your SSH agent (see [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent))
-* Your preferred terminal (such as [iTerm2](https://iterm2.com/) or [Ghostty](https://ghostty.org/))
-* [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to use developer tools
-* Your preferred integrated development environment (IDE) (such as [Visual Studio Code](https://code.visualstudio.com/) or [Cursor](https://cursor.com/))
+* A preferred terminal (such as [iTerm2](https://iterm2.com/) or [Ghostty](https://ghostty.org/))
+* [Git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to use developer tools
+* A preferred integrated development environment (IDE) (such as [Visual Studio Code](https://code.visualstudio.com/) or [Cursor](https://cursor.com/))
 * A Markdown file
 
 ## On this page
@@ -99,7 +99,7 @@ Now that your GitHub repository is cloned, you can add your Markdown file to the
    ```
    git commit -m "COMMIT_MESSAGE"
    ```
-   **Note**: Replace `COMMIT_MESSAGE` with your description of the change. For example: `git commit -m "Added updates to article X"`
+   **Note**: Replace `COMMIT_MESSAGE` with your description of the change. For example: `git commit -m "Add updates to article X"`
 
 10. Push the changes to the remote branch in GitHub:
 
