@@ -19,9 +19,9 @@ The benefits of this workflow includes the following:
 
 The following description and diagram show a simplified workflow of the docs-as-code toolchain:
 
-1. **Make changes**: Add or update documentation in your GitHub repository.
-2. **Open a pull request**: Propose your changes for review.
-3. **Get feedback**: Collaborate with your team and incorporate feedback.
+1. **Make Changes**: Add or update documentation in your GitHub repository.
+2. **Open a Pull Request**: Propose your changes for review.
+3. **Get Feedback**: Collaborate with your team and incorporate feedback.
 4. **Merge**: Combine approved changes into the main branch.
 5. **Publish**: Deploy your documentation to your website.
 
